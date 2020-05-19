@@ -8,6 +8,7 @@
     "@rails/webpacker": "4.2.2",
     "bootstrap": "^4.5.0",
     "channels": "^0.0.4",
+    "jquery": "^3.5.1",
     "tri": "^1.0.2",
     "trix": "^1.2.3",
     "turbolinks": "^5.2.0"
