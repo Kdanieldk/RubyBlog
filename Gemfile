@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
-
+gem "mini_magick"
+gem 'carrierwave', '~> 2.0'
 gem 'bootstrap'
 gem 'rails', '~> 6.0.3'
 gem 'sqlite3'
@@ -11,6 +12,7 @@ gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
+gem 'trix-rails', require: 'trix'
 # gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -12,16 +12,12 @@
   <body>
   <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand">StudyBlog</a>
+    <a class="navbar-brand">Mercedes-Benz Blog</a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="<%= posts_path %>">All Articles <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<%= new_post_path %>">New article</a>
-        </li>
-
       </ul>
     </div>
     <%= link_to 'New article', new_post_path, class: 'btn btn-primary d-flex float-right' %>

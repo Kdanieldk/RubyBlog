@@ -7,6 +7,7 @@ class PostsController < ApplicationController
   end
 
   def show
+
   end
 
   def new
@@ -15,6 +16,8 @@ class PostsController < ApplicationController
 
   def create
     @post =Post.new(post_params)
+    puts @post
+    logger.debug "New article: #{@post.attributes.inspect}"
     if @post.save
       redirect_to @post
     else
@@ -49,3 +52,4 @@ class PostsController < ApplicationController
   end
 
 end
+
