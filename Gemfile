@@ -6,7 +6,7 @@ gem "mini_magick"
 gem 'carrierwave', '~> 2.0'
 gem 'bootstrap'
 gem 'rails', '~> 6.0.3'
-gem 'sqlite3'
+gem 'pg'
 gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
